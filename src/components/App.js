@@ -10,15 +10,9 @@ function App() {
     <div>
       <NavBar />
       <Routes>
-        <Route exact path="/about" 
-         element={<About />}>
-        </Route>
-        <Route exact path="/login"
-        element={<Login />}>
-        </Route>
-        <Route exact path="/"
-          element={<Home />}>
-        </Route>
+        <Route exact path="/about" element={<About />}></Route>
+        <Route exact path="/login" element={<Login />}></Route>
+        <Route exact path="/" element={<Home />}></Route>
       </Routes>
     </div>
   );

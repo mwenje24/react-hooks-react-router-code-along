@@ -14,24 +14,9 @@ const linkStyles = {
 function NavBar() {
   return (
     <div>
-      <Link
-        to="/"
-        style={linkStyles}
-      >
-        Home
-      </Link>
-      <Link
-        to="/about"
-        style={linkStyles}
-      >
-        About
-      </Link>
-      <Link
-        to="/login"
-        style={linkStyles}
-      >
-        Login
-      </Link>
+      <Link to="/" style={linkStyles}> Home </Link>
+      <Link to="/about" style={linkStyles}> About </Link>
+      <Link to="/login" style={linkStyles}> Login </Link>
     </div>
   );
 }
